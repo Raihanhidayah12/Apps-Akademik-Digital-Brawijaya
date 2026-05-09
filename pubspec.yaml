@@ -1,0 +1,59 @@
+name: uasmobile
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI icons
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Database
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.2
+  sqflite_common_ffi_web: ^0.4.3
+  path: ^1.9.0
+  path_provider: ^2.1.2
+
+  # Security
+  crypto: ^3.0.3
+  flutter_secure_storage: ^9.2.2
+
+  # Ekspor PDF
+  pdf: ^3.11.0
+  printing: ^5.12.0
+
+  google_fonts: ^6.0.0
+
+  # Grafik nilai
+  fl_chart: ^0.69.0
+  shared_preferences: ^2.1.0
+
+  # Notifikasi lokal dan Firebase (PASTIKAN VERSI KOMPATIBEL)
+  flutter_local_notifications: ^17.2.4
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.10
+  firebase_core: ^2.30.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
